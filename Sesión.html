@@ -24,7 +24,6 @@
           }
           li {
             float: left;
-          
           }
           li a {
             display: block;
@@ -75,22 +74,36 @@
           </ul>
         <body background="imgp/fonditolindo.png">
         <br>
-        <h1 class="titulo2">ACERCA DE NOSOTROS</h1>
+        <h1 class="titulo2">REGISTRO DE USUARIO</h1>
         <br>
-        <br>
-        <br>
-        <br>
-        <div class="caja">Los comilones nace como un proyecto de dos compañeros de universidad: Esteban y Matías los cuales estudian en el instituto Duoc UC, carrera analista progamador computacional.
-            Junto a su gusto por la comida rápida y poder demostrar estos deleites a las demas personas
-            crean LOS COMILONES
-            Los comilones se caracteriza por tener precios, calidad y variedad entre sus productos
-            ademas incluye comida vegetariana para nuestra comunidad vegana que no puede disfrutar de los deleites</div>
         
-            <p class="fotos">
-                <img src="imgp/imagenP.jpg" witdh="400" height="400" >
-                </p>
-                <iframe width="1863" height="801" src="https://www.youtube.com/embed/U0dW24WEgvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="caja">
+            <form name="contacto" method="POST" action="file:///C:/Users/Esteban/Desktop/Duoc%20Segundo%20Año/Experiencia1_Ormeno_Acuna_007D/Inicio.html">
+                <label for="lname">Nombre De Usuario</label>
+                <input type="text" id="txtNom" name="txtNom" value="" placeholder="Escriba su nombre" required> <br> <br>
+                <label for="lapellido">Apellido de Usuario</label>
+                <input type="text" id="txtApe" name="txtApe" value="" placeholder="Escriba su Apellido" required> <br> <br>
+                <label for="lpass">Password Usuario</label>
+                <input type="password" id="passUsuario" name="passUsuario" value="" placeholder="Introduzca su contraseña" required minlength="8"> <br> <br>
+                <label for="lmensaje">Seleccione género:</label> <br>
+                <input type="radio" id="hombre" name="género" value="hombre">
+                <label for="lHombre">Hombre</label> <br>
+                <input type="radio" id="mujer" name="género" value="Mujer">
+                <label for="lMujer">Mujer</label> <br>
+                <input type="radio" id="otro" name="género" value="otro">
+                <label for="lotro">Otro</label> <br>
                 
+
+
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+                
+            </form>
+
+        </div>
+        
+            
                 
                 <footer>
                   <div class="container" style="padding: 80px 0;" align="center">

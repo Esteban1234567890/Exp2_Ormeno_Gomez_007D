@@ -212,5 +212,9 @@ body{
   .container{
     grid-template-columns: repeat(3, 1fr);
   }
+.li2{
+  text-align: right;
+}
+
 
 }
